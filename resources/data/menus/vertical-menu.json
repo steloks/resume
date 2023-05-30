@@ -1,0 +1,305 @@
+{
+    "menu": [
+        {
+            "url": "admin.dashboard-index",
+            "name": "Home",
+            "slug": "Home",
+            "tag": "",
+            "tagcustom": "",
+            "hr": 1
+        },
+        {
+            "navheader": "Clients and orders",
+            "subs": [
+                "Clients",
+                "Pets",
+                "Orders",
+                "Orders menus",
+                "Invoice",
+                "Courier",
+                "Favorite menus"
+            ]
+        },
+        {
+            "url": "admin.clients.index",
+            "name": "Clients",
+            "slug": "Clients",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.clients-pets.index",
+            "name": "Pets",
+            "slug": "Pets",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.orders.index",
+            "name": "Orders",
+            "slug": "Orders",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.order-menus.index",
+            "name": "Orders menus",
+            "slug": "Orders menus",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.invoices",
+            "name": "Invoice",
+            "slug": "Invoice",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.couriers.index",
+            "name": "Courier",
+            "slug": "Courier",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.favouriteMenus.index",
+            "name": "Favorite menus",
+            "slug": "Favorite menus",
+            "icon": "",
+            "tag": "",
+            "tagcustom": "",
+            "hr": 1
+        },
+        {
+            "navheader": "Shopping",
+            "subs": [
+                "Shopping list"
+            ]
+        },
+        {
+            "url": "admin.shopping.list",
+            "name": "Shopping list",
+            "slug": "Shopping list",
+            "icon": "",
+            "tag": "",
+            "tagcustom": "",
+            "hr": 1
+        },
+        {
+            "navheader": "Kitchen and Delivery",
+            "subs": [
+                "Products preparation",
+                "Kitchen",
+                "Deliveries"
+            ]
+        },
+        {
+            "url": "admin.food.prepare.index",
+            "name": "Products preparation",
+            "slug": "Products preparation",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.kitchen.index",
+            "name": "Kitchen",
+            "slug": "Kitchen",
+            "icon": "",
+            "tag": "",
+            "tagcustom": ""
+        },
+        {
+            "url": "admin.couriers.deliveries",
+            "name": "Deliveries",
+            "slug": "Deliveries",
+            "icon": "",
+            "tag": "",
+            "tagcustom": "",
+            "hr": 1
+        },
+        {
+            "navheader": "Administration",
+            "subs": [
+                "Warehouse",
+                "Recipes",
+                "Zoning",
+                "Objects and users",
+                "Settings"
+            ]
+        },
+        {
+            "url": "",
+            "name": "Warehouse",
+            "slug": "Warehouse",
+            "icon": "",
+            "submenu": [
+                {
+                    "url": "admin.products",
+                    "name": "Nomenclatures",
+                    "slug": "Nomenclatures",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.objects.products.list",
+                    "name": "Products on objects",
+                    "slug": "Products on objects",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.products.product.data",
+                    "name": "Batches",
+                    "slug": "Batches",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.categories",
+                    "name": "Categories",
+                    "slug": "Categories",
+                    "icon": "t"
+                }
+            ]
+        },
+        {
+            "url": "",
+            "name": "Recipes",
+            "slug": "Recipes",
+            "icon": "",
+            "submenu": [
+                {
+                    "url": "admin.recipes",
+                    "name": "Recipes",
+                    "slug": "Recipes",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.recipe.parameters.view",
+                    "name": "Recipe parameters",
+                    "slug": "Recipe parameters",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.recipes.calculated.list",
+                    "name": "Calculated recipes",
+                    "slug": "Calculated recipes",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "url": "",
+            "name": "Zoning",
+            "slug": "Zoning",
+            "icon": "",
+            "submenu": [
+                {
+                    "url": "admin.zoning.cities",
+                    "name": "Cities",
+                    "slug": "Cities",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.zoning.regions",
+                    "name": "Areas",
+                    "slug": "Areas",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.zoning.postcodes",
+                    "name": "PC Addresses",
+                    "slug": "PC Addresses",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.zoning.timeslots",
+                    "name": "Time slot",
+                    "slug": "Time slot",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "url": "",
+            "name": "Objects and users",
+            "slug": "Objects and users",
+            "icon": "",
+            "submenu": [
+                {
+                    "url": "admin.objects",
+                    "name": "Objects",
+                    "slug": "Objects",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.users.index",
+                    "name": "Users",
+                    "slug": "Users",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.roles.index",
+                    "name": "Roles",
+                    "slug": "Roles",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.login-history.index",
+                    "name": "User login history",
+                    "slug": "User login history",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "url": "",
+            "name": "Settings",
+            "slug": "Settings",
+            "icon": "",
+            "submenu": [
+                {
+                    "url": "admin.company-info.index",
+                    "name": "Company details",
+                    "slug": "Company details",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.company-info.other.settings",
+                    "name": "Other settings",
+                    "slug": "Other settings",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.allergens.index",
+                    "name": "Allergens",
+                    "slug": "Allergens",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.breeds.index",
+                    "name": "Breeds",
+                    "slug": "Breeds",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.cms.index",
+                    "name": "CMS",
+                    "slug": "CMS",
+                    "icon": ""
+                },
+                {
+                    "url": "admin.Translation::index",
+                    "name": "Translations",
+                    "slug": "Translations",
+                    "icon": ""
+                }
+            ]
+        }
+    ]
+}

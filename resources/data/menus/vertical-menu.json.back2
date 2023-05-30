@@ -1,0 +1,287 @@
+{
+  "menu": [
+    {
+      "url": "",
+      "name": "Начало",
+      "slug": "Начало",
+      "tag": "",
+      "tagcustom": "",
+			"hr": 1
+    },
+    {
+      "navheader": "Клиенти и поръчки"
+    },
+    {
+      "url": "admin.clients.index",
+      "name": "Клиенти",
+      "slug": "Клиенти",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.clients-pets.index",
+      "name": "Профили на кучета",
+      "slug": "Профили на кучетаt",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.orders.index",
+      "name": "Поръчки",
+      "slug": "Поръчки",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.order-menus.index",
+      "name": "Поръчки По Менюта",
+      "slug": "Поръчки По Менюта",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "",
+      "name": "Фактури",
+      "slug": "Фактури",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.couriers.index",
+      "name": "Куриери",
+      "slug": "Куриери",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.favouriteMenus.index",
+      "name": "Любими менюта",
+      "slug": "Любими менюта",
+      "icon": "",
+      "tag": "",
+      "tagcustom": "",
+			"hr": 1
+    },
+    {
+      "navheader": "Пазаруване"
+    },
+    {
+      "url": "admin.shopping.list",
+      "name": "Списък пазаруване",
+      "slug": "Списък пазаруване",
+      "icon": "",
+      "tag": "",
+      "tagcustom": "",
+			"hr": 1
+    },
+    {
+      "navheader": "Кухня И Доставки"
+    },
+    {
+      "url": "admin.food.prepare.index",
+      "name": "Заготовки",
+      "slug": "Заготовки",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.kitchen.index",
+      "name": "Кухня",
+      "slug": "Кухня",
+      "icon": "",
+      "tag": "",
+      "tagcustom": ""
+    },
+    {
+      "url": "admin.couriers.deliveries",
+      "name": "Доставки",
+      "slug": "Доставки",
+      "icon": "",
+      "tag": "",
+      "tagcustom": "",
+			"hr": 1
+    },
+    {
+      "navheader": "Администрация"
+    },
+    {
+      "url": "",
+      "name": "Склад",
+      "slug": "Склад",
+      "icon": "",
+      "submenu": [
+        {
+          "url": "admin.products",
+          "name": "Номенклатури",
+          "slug": "Номенклатури",
+          "icon": ""
+        },
+        {
+          "url": "admin.objects.products.list",
+          "name": "Продукти в обекти",
+          "slug": "Продукти в обекти",
+          "icon": ""
+        },
+        {
+          "url": "",
+          "name": "Партиди",
+          "slug": "Партиди",
+          "icon": ""
+        },
+        {
+          "url": "admin.categories",
+          "name": "Категории",
+          "slug": "Категории",
+          "icon": "t"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Рецепти",
+      "slug": "Рецепти",
+      "icon": "",
+      "submenu": [
+        {
+          "url": "admin.recipes",
+          "name": "Рецепти",
+          "slug": "Рецепти",
+          "icon": ""
+        },
+        {
+          "url": "admin.recipe.parameters.view",
+          "name": "Параметри рецепти",
+          "slug": "Параметри рецепти",
+          "icon": ""
+        },
+        {
+          "url": "admin.recipes.calculated.list",
+          "name": "Калкулирани рецепти",
+          "slug": "Калкулирани рецепти",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Райониране",
+      "slug": "Райониране",
+      "icon": "",
+      "submenu": [
+        {
+          "url": "admin.zoning.cities",
+          "name": "Градове",
+          "slug": "Градове",
+          "icon": ""
+        },
+        {
+          "url": "admin.zoning.regions",
+          "name": "Райони",
+          "slug": "Райони",
+          "icon": ""
+        },
+        {
+          "url": "admin.zoning.postcodes",
+          "name": "ПК Адреси",
+          "slug": "ПК Адреси",
+          "icon": ""
+        },
+        {
+          "url": "admin.zoning.timeslots",
+          "name": "Часови слот",
+          "slug": "Часови слот",
+          "icon": ""
+        },
+        {
+          "url": "admin.zoning.regions.delivery.price.view",
+          "name": "Цени доставка",
+          "slug": "Цени доставка",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Обекти И Потребители",
+      "slug": "Обекти И Потребители",
+      "icon": "",
+      "submenu": [
+        {
+          "url": "admin.objects",
+          "name": "Обекти",
+          "slug": "Обекти",
+          "icon": ""
+        },
+        {
+          "url": "admin.users.index",
+          "name": "Потребители",
+          "slug": "Потребители",
+          "icon": ""
+        },
+        {
+          "url": "admin.roles.index",
+          "name": "Роли",
+          "slug": "Роли",
+          "icon": ""
+        },
+        {
+          "url": "",
+          "name": "Права на достъп",
+          "slug": "Права на достъп",
+          "icon": ""
+        },
+        {
+          "url": "admin.login-history.index",
+          "name": "История на влизанията",
+          "slug": "История на влизанията",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Настройки",
+      "slug": "Настройки",
+      "icon": "",
+      "submenu": [
+        {
+          "url": "admin.company-info.index",
+          "name": "Данни на фирмата",
+          "slug": "Данни на фирмата",
+          "icon": ""
+        },
+        {
+          "url": "",
+          "name": "Други настройки",
+          "slug": "Други настройки",
+          "icon": ""
+        },
+          {
+              "url": "admin.allergens.index",
+              "name": "Алергени",
+              "slug": "Алергени",
+              "icon": ""
+          },
+          {
+              "url": "admin.breeds.index",
+              "name": "Породи",
+              "slug": "Породи",
+              "icon": ""
+          },
+        {
+          "url": "admin.cms.index",
+          "name": "CMS",
+          "slug": "CMS",
+          "icon": ""
+        }
+      ]
+    }
+  ]
+}
